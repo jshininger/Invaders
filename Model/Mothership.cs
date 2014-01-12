@@ -12,8 +12,6 @@ namespace Invaders.Model
     {
         public static Size MothershipSize = new Size(45, 15);
 
-        //public static int PixelsPerMove = 3;
-
         public bool Escaped { get; private set; }
 
         public Mothership(Point location, int score)
